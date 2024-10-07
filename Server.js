@@ -18,10 +18,6 @@ const jwt = require('jsonwebtoken'); // Import jsonwebtoken for verification
 
 
 
-
-
-
-
 // Body parser middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
